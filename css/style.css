@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* NAVIGATION */
+.navbar {
+    padding: 3rem 0;
+}
+
+.navbar-brand img {
+    padding-left: 3rem;
+}
+
+/* LANDING */
+
+.section__landing {
+    padding: 0 0 10rem;
+}
+
+.section__container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.section__text {
+    margin-top: 10rem;
+}
+
+.section__text p {
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+
+.section__text p:not(:last-child) {
+    margin-bottom: 5rem;
+}
+
+/* FRESHERS */
+
+.section__freshers {
+    padding: 10rem 0;
+    background-color: #F5F5F5;
+    height: auto;
+    width: 100%;
+}
+
+.section__freshers h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section__fluid {
+    margin-top: 10rem;
+}
+
+.section__content {
+    background-image: url(../img/wepublish.jpg);
+    background-size: cover;
+    display: block;
+    width: 70rem;
+    height: 40rem;
+    margin: 0 auto;
+}
+
+.section__content__img {
+
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    position: relative;
+
+
+}
+
+.section__content__img img {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section__content__text {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    float: right;
+    position: relative;
+    color: white;
+    font-family: inherit;
+}
+
+.section__content__text-items {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-10%, -50%);
+}
+
+.section__content__heading {
+    font-size: 4rem;
+}
+
+.section__content__list {
+    padding-left: 2rem;
+}
+
+.section__content__list-item {
+    font-size: 2rem;
+}
+
+.section__content-1,
+.section__content-2,
+.section__content-3,
+.section__content-4,
+.section__content-5,
+.section__content-6,
+.section__content-7,
+.section__content-8,
+.section__content-9,
+.section__content-10 {
+    background-size: cover;
+    display: inline-block;
+    width: 55rem;
+    height: 40rem;
+    margin: 0;
+}
+
+.section__content-1 {
+    background-image: url(../img/web\ des.jpg);
+    float: left;
+}
+
+.section__content-2 {
+    background-image: url(../img/web\ prog.jpg);
+    float: right;
+}
+
+.section__fluid-1 {
+    padding: 0;
+    margin: 10rem auto 0;
+    height: auto;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.margin {
+    margin: 2rem auto 0;
+}
+
+.section__content__img-1 {
+    width: 33.3333%;
+}
+
+.section__content__text-2 {
+    width: 66.6666%;
+}
+
+.section__content__heading-1 {
+    font-size: 3rem;
+    letter-spacing: .5rem;
+}
+
+.section__content__list-1 {
+    padding-top: 4rem;
+}
+
+.section__content__list-item-1 {
+    font-size: 1.7rem;
+}
+
+.section__content-3 {
+    background-image: url(../img/designer\ pro.png);
+    float: left;
+}
+
+.section__content-4 {
+    background-image: url(../img/web\ development.png);
+    float: right;
+}
+
+.section__content-5 {
+    background-image: url(../img/web-prog-pro.png);
+    float: left;
+}
+
+.section__content-6 {
+    background-image: url(../img/mobile-apps.png);
+    float: right;
+}
+
+.section__content-7 {
+    background-image: url(../img/linux.png);
+    float: left;
+}
+
+.section__content-8 {
+    background-image: url(../img/cs.png);
+    float: right;
+}
+
+.section__content-9 {
+    background-image: url(../img/fresher.png);
+    float: left;
+}
+
+.section__content-10 {
+    background-image: url(../img/iot.png);
+    float: right;
+}
+
+/* REFREHSERS COURSE FOR ENGINEER START*/
+
+.section__refresher {
+    padding: 10rem 0;
+}
