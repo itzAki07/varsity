@@ -128,7 +128,8 @@ body {
 .section__content-7,
 .section__content-8,
 .section__content-9,
-.section__content-10 {
+.section__content-10,
+.section__content-11 {
     background-size: cover;
     display: inline-block;
     width: 55rem;
@@ -218,6 +219,12 @@ body {
 .section__content-10 {
     background-image: url(../img/iot.png);
     float: right;
+}
+
+.section__content-11 {
+    background-image: url(../img/iot.png);
+    display: inherit;
+    margin: 0 auto;
 }
 
 /* REFREHSERS COURSE FOR ENGINEER START*/
